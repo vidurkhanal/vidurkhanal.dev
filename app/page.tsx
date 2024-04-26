@@ -37,7 +37,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen lg:ml-60">
       <div className="relative h-1/4 mb-7">
         <Image
-          src="/Cover.jpeg"
+          src="/Cover.avif"
           width={2000}
           height={1000}
           alt="Image"
