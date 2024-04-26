@@ -42,6 +42,7 @@ export default function Home() {
           height={1000}
           alt="Image"
           draggable="false"
+          loading="eager"
           className="object-cover w-screen h-full"
         />
         {/* <div className="flex flex-row px-[4%] items-baseline w-full justify-between absolute bottom-[-35%]  "> */}
