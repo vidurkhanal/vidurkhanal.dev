@@ -2,7 +2,7 @@
 
 **Why did I build this?**
 
-Have been wanted to build a minimalistic static version of my portfolio with some of the modern design quirks. My previous ones were all client-side rendered and took time to load all the static assets, even though they were optimized by Next, ImageBot by github, and Vercel. Now the technology has matured to the point that React components can now be rendered in the server itself (thanks RSCs).
+So, I had been wanting to build a minimalistic static version of my portfolio with some of the modern design quirks. My previous ones were all client-side rendered and took time to load all the static assets, even though they were optimized by Next, ImageBot by github, and Vercel. Now the technology has matured to the point that React components can now be rendered in the server itself (thanks RSCs).
 
 **What did I use to build this?**
 
