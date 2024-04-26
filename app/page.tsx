@@ -23,7 +23,6 @@ import {
   SiRedis,
   SiRust,
   SiOcaml,
-  SiMailgun,
   SiMailtrap,
 } from "react-icons/si";
 import {
@@ -38,7 +37,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen lg:ml-60">
       <div className="relative h-1/4 mb-7">
         <Image
-          src="https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?q=80&w=3569&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="/Cover.jpeg"
           width={2000}
           height={1000}
           alt="Image"
