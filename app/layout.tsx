@@ -6,13 +6,13 @@ import { cn } from "../lib/utils";
 import { Sidebar } from "../components/sidebar";
 
 export const metadata: Metadata = {
-  title: "Vidur Khanal, Software Engineer",
+  title: "Vidur Khanal | Software Engineer & Undergrad CS Researcher",
   description:
-    "Hi! I am a driven software engineer specializing in crafting high-quality and performant software solutions. I invite you to explore my portfolio and witness firsthand the passion, attention to detail, and commitment to excellence that I bring to every project.",
+    "Vidur Khanal is a driven Computer Science and Mathematics undergraduate specializing in high-quality software solutions, backend systems, distributed architectures, compilers, and performance engineering.",
   applicationName: "Vidur Khanal - Portfolio",
   authors: {
     name: "Vidur Khanal",
-    url: "https://www.github.com/vidurkhanal",
+    url: "https://www.github.com/vidurkhanal/",
   },
   keywords: [
     "vidur",
@@ -20,9 +20,15 @@ export const metadata: Metadata = {
     "developer",
     "software",
     "engineer",
-    "New York",
-    "portfolio",
+    "Vidur Khanal, software engineer, computer science, mathematics, backend developer, distributed systems, compilers, performance engineering, frontend development, user experience design",
   ],
+  openGraph: {
+    url: "https://www.vidurkhanal.dev",
+    siteName: "Vidur Khanal - Portfolio",
+    description:
+      "Vidur Khanal is a driven Computer Science and Mathematics undergraduate specializing in high-quality software solutions, backend systems, distributed architectures, compilers, and performance engineering.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
