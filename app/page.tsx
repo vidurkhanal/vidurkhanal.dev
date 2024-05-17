@@ -1,4 +1,3 @@
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,7 +22,7 @@ import {
   SiRedis,
   SiRust,
   SiOcaml,
-  SiMailtrap,
+  SiMinutemailer,
 } from "react-icons/si";
 import {
   Tooltip,
@@ -35,15 +34,15 @@ import {
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen lg:ml-60">
-      <div className="relative h-1/4 mb-7">
+      <div className="relative h-1/4">
         <Image
           src="/Cover.avif"
           width={2000}
-          height={1000}
+          height={2000}
           alt="Image"
           draggable="false"
           loading="eager"
-          className="object-cover w-screen h-full"
+          className="object-cover w-screen h-[80%]"
         />
         {/* <div className="flex flex-row px-[4%] items-baseline w-full justify-between absolute bottom-[-35%]  "> */}
         {/*   <Avatar className="w-40 h-40 bg-gray-100 border-2 border-gray-400"> */}
@@ -75,7 +74,7 @@ export default function Home() {
               >
                 <LinkedinIcon />
               </Link>
-              <Link href="https://www.twitter.com/vidurkl" target="_blank">
+              <Link href="https://www.x.com/vidurkl" target="_blank">
                 <XIcon />
               </Link>
             </div>
@@ -94,7 +93,7 @@ export default function Home() {
 
             <Link href="/contact-me" className="lg:hidden">
               <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow inline-flex justify-center items-center transition-all">
-                <SiMailtrap className="mr-2" />
+                <SiMinutemailer className="mr-2" />
                 <span className="mr-2 md:mr-5">Contact Me</span>
               </button>
             </Link>
